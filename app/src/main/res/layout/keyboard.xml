@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/float_btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="move" />
+
+    <LinearLayout style="@style/KeyboardRow">
+
+        <TextView
+            android:id="@+id/key_pos_0_0"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_1"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_2"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_3"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_4"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_5"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_6"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_7"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_8"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_9"
+            style="@style/SoftKey" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyboardRow">
+
+        <TextView
+            android:id="@+id/key_pos_1_0"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_1"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_2"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_3"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_4"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_5"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_6"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_7"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_8"
+            style="@style/SoftKey" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyboardRow">
+
+        <TextView
+            android:id="@+id/key_pos_shift"
+            style="@style/SoftKey.Function" />
+
+        <TextView
+            android:id="@+id/key_pos_2_0"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_1"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_2"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_3"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_4"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_5"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_6"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_del"
+            style="@style/SoftKey.Function" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyboardRow">
+
+        <TextView
+            android:id="@+id/key_pos_symbol"
+            style="@style/SoftKey.Function.Text" />
+
+        <TextView
+            android:id="@+id/key_pos_bottom_0"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_space"
+            style="@style/SoftKey.Space" />
+
+        <TextView
+            android:id="@+id/key_pos_bottom_1"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_enter"
+            style="@style/SoftKey.Function" />
+    </LinearLayout>
+</LinearLayout>

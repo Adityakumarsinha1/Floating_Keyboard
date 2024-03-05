@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Set the solid color to transparent to make the rectangle hollow -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Set the stroke to create the border -->
+    <stroke
+        android:width="5dp"
+    android:color="#FF0000" />
+
+</shape>
